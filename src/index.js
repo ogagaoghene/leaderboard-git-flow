@@ -1,9 +1,8 @@
 import './style.css';
-import { sendNewScore } from './fetchData';
-import render from './renderData';
+import { sendNewScore } from './modules/fetchData.js';
+import render from './modules/renderData.js';
 
 document.addEventListener('DOMContentLoaded', () => {
-  
   document.querySelector('.refreshBtn').addEventListener('click', async () => { render(); });
 
   document.getElementById('form').addEventListener('submit', async (event) => {

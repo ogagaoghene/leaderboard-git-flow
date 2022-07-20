@@ -1,4 +1,4 @@
-import { getScores } from './modules/fetchData';
+import { getScores } from './fetchData.js';
 
 const scoreBoard = document.querySelector('.score-container');
 

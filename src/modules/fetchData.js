@@ -1,4 +1,4 @@
-const userInput  = document.querySelector('#name');
+const userInput = document.querySelector('#name');
 const scoreInput = document.querySelector('#score');
 
 const sendNewItem = () => {
