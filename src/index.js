@@ -4,8 +4,7 @@ import render from './modules/renderData.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   document.querySelector('.refreshBtn').addEventListener('click', async () => { render(); });
-
-  document.getElementById('form').addEventListener('submit', async (event) => {
+  document.getElementById('myForm').addEventListener('submit', async (event) => {
     event.preventDefault();
     sendNewScore();
     document.querySelector('.name-input').value = '';
