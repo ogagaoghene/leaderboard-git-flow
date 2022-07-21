@@ -6,6 +6,7 @@ This is a Webpack Leaderboard project based on REST API. With this app, you can 
 - [ ] HTML5
 - [ ] CSS
 - [ ] JAVASCRIPT
+- [ ] RESTAPI
 - [ ] NPM
 - [ ] WEBPACK
 

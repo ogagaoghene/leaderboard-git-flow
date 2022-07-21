@@ -60,6 +60,11 @@ body {
   margin-left: 120px;
 }
 
+.scoreboard-section .refreshBtn:hover {
+  background-color: #3e383814;
+  cursor: pointer;
+}
+
 .score-container {
   width: 350px;
   height: 350px;
@@ -109,6 +114,11 @@ body {
   width: 70px;
   height: 30px;
   margin-left: 255px;
+}
+
+.score-section .bttn-submit:hover {
+  background-color: #3e383880;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 768px) {
